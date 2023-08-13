@@ -1,12 +1,15 @@
-/** 4. Using put in a code 
+/*
+ *  file:  Using put in a code 
  *  Filename is 4-puts.c
- *  A c program
+ *  Auth:  c program
  *  Uses compiler
  */
 #include <stdio.h>
 /**
- * main code- This prints what is in the braces
+ * main - This prints what is in the braces
  * Then starts a new line
+ * 
+ * Return: Always 0.
  */
 
 int main(void)
