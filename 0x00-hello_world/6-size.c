@@ -11,4 +11,4 @@
 	printf("size of double: %d bytes\n",sizeof(double));
 
 	return (0);
-
+}
