@@ -1,17 +1,18 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Entry point
+ * main - Prints numbers.
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char b;
+	char num;
 
-	for (b = 'a'; b <= 'z'; b++)
-		if (b != 'q' && b != 'e')
-			putchar(b);
+	for (num = 0; num <= 9; num++)
+	{
+		printf("%d", num);
+	}
 	putchar('\n');
 	return (0);
 }
